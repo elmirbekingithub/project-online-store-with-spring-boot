@@ -1,17 +1,18 @@
-package com.alex.candy_shop.web;
+package peaksoft.web;
 
-import com.alex.candy_shop.entities.Order;
-import com.alex.candy_shop.entities.OrderItem;
-import com.alex.candy_shop.entities.Product;
-import com.alex.candy_shop.repos.OrderRepo;
-import com.alex.candy_shop.repos.ProductRepo;
-import com.alex.candy_shop.repos.UserRepo;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import peaksoft.entities.Order;
+import peaksoft.entities.OrderItem;
+import peaksoft.entities.Product;
+import peaksoft.repos.OrderRepo;
+import peaksoft.repos.ProductRepo;
+import peaksoft.repos.UserRepo;
+
 import java.util.List;
 
 @Controller

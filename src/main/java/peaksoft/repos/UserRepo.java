@@ -1,10 +1,10 @@
-package com.alex.candy_shop.repos;
+package peaksoft.repos;
 
-import com.alex.candy_shop.entities.User;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import peaksoft.entities.User;
 
 @Repository
-public interface UserRepo extends CrudRepository<User, Integer> {
+public interface UserRepo extends JpaRepository<User, Integer> {
     User findByUsername(String username);
 }

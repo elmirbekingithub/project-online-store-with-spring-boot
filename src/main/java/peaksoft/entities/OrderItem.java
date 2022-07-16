@@ -1,4 +1,4 @@
-package com.alex.candy_shop.entities;
+package peaksoft.entities;
 
 import lombok.Data;
 

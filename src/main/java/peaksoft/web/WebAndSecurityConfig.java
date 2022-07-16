@@ -1,4 +1,4 @@
-package com.alex.candy_shop.web;
+package peaksoft.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
