@@ -1,7 +1,8 @@
-package com.alex.candy_shop.entities;
+package peaksoft.entities;
 
-import com.alex.candy_shop.util.Utils;
+
 import lombok.Data;
+import peaksoft.util.Utils;
 
 import javax.persistence.*;
 

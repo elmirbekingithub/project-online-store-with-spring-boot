@@ -1,10 +1,12 @@
-package com.alex.candy_shop.repos;
+package peaksoft.repos;
 
-import com.alex.candy_shop.entities.Product;
-import org.springframework.data.repository.CrudRepository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import org.springframework.stereotype.Repository;
+import peaksoft.entities.Product;
 
 @Repository
-public interface ProductRepo extends CrudRepository<Product, Integer> {
+public interface ProductRepo extends JpaRepository<Product, Integer> {
     Product findFirstByName(String name);
 }

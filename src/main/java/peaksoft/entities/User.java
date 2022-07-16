@@ -1,10 +1,11 @@
-package com.alex.candy_shop.entities;
+package peaksoft.entities;
 
-import com.alex.candy_shop.util.Utils;
+
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import peaksoft.util.Utils;
 
 import javax.persistence.*;
 import java.util.Arrays;
@@ -28,9 +29,7 @@ public class User implements UserDetails {
     private boolean credentialsNonExpired = true;
     private boolean enabled = true;
 
-/*
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Order> orders; */
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

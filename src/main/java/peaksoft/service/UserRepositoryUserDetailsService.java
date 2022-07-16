@@ -1,12 +1,12 @@
-package com.alex.candy_shop.service;
+package peaksoft.service;
 
-import com.alex.candy_shop.entities.User;
-import com.alex.candy_shop.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import peaksoft.entities.User;
+import peaksoft.repos.UserRepo;
 
 @Service
 public class UserRepositoryUserDetailsService implements UserDetailsService {

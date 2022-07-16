@@ -1,4 +1,4 @@
-package com.alex.candy_shop.util;
+package peaksoft.util;
 
 public class Utils {
     // used to convert money sums like X and X.X to X.00 and X.X0 formats respectively
